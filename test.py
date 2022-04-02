@@ -8,6 +8,7 @@ def some_function(a, b):
     return c
 
 print(some_function(3, 4))
+print('shabitongshi')
 
 def main(a, b, c):
     return some_function(a, b) + c
