@@ -1,8 +1,15 @@
 import re
+import time
 
 def some_function(a, b):
+    t1 = time.time()
     c = a + b
+    print("time cost:", time.time()-t1)
     return c
 
+
+def main(a, b, c):
+    return some_function(a, b) + c
+
 if __name__ == "__main__":
-    pass
+    main(1, 2, 3)
