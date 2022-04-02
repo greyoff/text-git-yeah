@@ -8,6 +8,7 @@ def some_function(a, b):
     return c
 
 print(some_function(3, 4))
+print('shabitongshi')
 
 def sb_func(x, y, z):
     print("I'm SB!!!!!!")
